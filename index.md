@@ -32,6 +32,8 @@ survey文件是数据源的原版问卷，作为补充以方便理解问题背�
 
 分数计算公式：
 
-$$score = \frac{1}{n}\sum_{1}^{n}(y_i-y^*)^2$$
+![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\ dx)
 
-其中$n$代表测试集样本数，$y_i$代表第$i$个样本的预测值，$y^*$代表真实值。
+score = \frac{1}{n}\sum_{1}^{n}(y_i-y^*)^2
+
+其中n代表测试集样本数，y_i代表第i个样本的预测值，y^* 代表真实值。
