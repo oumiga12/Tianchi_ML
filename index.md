@@ -30,10 +30,3 @@ survey文件是数据源的原版问卷，作为补充以方便理解问题背�
 ### 评测指标
 提交结果为csv文件，其中包含id和happiness的预测值两列。
 
-分数计算公式：
-
-![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\ dx)
-
-score = \frac{1}{n}\sum_{1}^{n}(y_i-y^*)^2
-
-其中n代表测试集样本数，y_i代表第i个样本的预测值，y^* 代表真实值。
